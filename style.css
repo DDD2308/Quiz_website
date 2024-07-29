@@ -10,8 +10,19 @@ body {
 
 .carousel {
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
     position: relative;
+}
+.carousel .slick-slide img {
+  width: 100%;          /* Make image width fit the container */
+  height: auto;         /* Maintain aspect ratio */
+  object-fit: cover;    /* Optional: Cover the container while maintaining aspect ratio */
+}
+
+.carousel .slick-prev,
+.carousel .slick-next {
+  font-size: 18px;      /* Customize arrow size */
+  color: black;         /* Customize arrow color */
 }
 
 .card {
