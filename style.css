@@ -42,19 +42,13 @@ body {
 .slick-prev, .slick-next {
     z-index: 1;
     cursor: pointer;
-    /* Remove text */
-    font-size: 0;
-    /* Remove default background */
-    background: none;
-    /* Remove border */
+    font-size: 24px; /* Adjust as needed */
+    background: navy; /* Navy blue background */
+    color: white; /* White arrow color */
     border: none;
-    /* Remove hover effects */
-    transition: none;
-    /* Customize arrow styles */
+    border-radius: 50%; /* Round button */
     width: 40px; /* Adjust as needed */
     height: 40px; /* Adjust as needed */
-    background-color: red; /* Navy blue background */
-    color: white; /* White arrow color */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,20 +62,6 @@ body {
     right: 10px;
 }
 
-.slick-prev:before, .slick-next:before {
-    content: ''; /* Ensure no default text */
-    display: block;
-    width: 0;
-    height: 0;
-    border-style: solid;
-}
-
-.slick-prev:before {
-    border-width: 10px 15px 10px 0; /* Adjust arrow size */
-    border-color: transparent red transparent transparent; /* Navy blue arrow */
-}
-
-.slick-next:before {
-    border-width: 10px 0 10px 15px; /* Adjust arrow size */
-    border-color: transparent transparent transparent red; /* Navy blue arrow */
+.slick-prev:focus, .slick-next:focus {
+    outline: none; /* Remove default focus outline */
 }
