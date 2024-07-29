@@ -2,12 +2,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const slider = document.querySelector('.slider');
     const leftButton = document.querySelector('.left-button');
     const rightButton = document.querySelector('.right-button');
-    const cardWidth = slider.querySelector('.card').offsetWidth;
-    const visibleCards = 2; // Number of cards to show at a time
+    const cards = slider.querySelectorAll('.card');
+    const cardWidth = cards[0].offsetWidth; // Width of one card
+    const visibleCards = 2; // Number of cards visible at a time
     let currentIndex = 0;
 
     function updateSlider() {
-        const offset = currentIndex * -cardWidth * visibleCards;
+        const offset = -currentIndex * cardWidth * visibleCards;
         slider.style.transform = `translateX(${offset}px)`;
     }
 
@@ -19,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     rightButton.addEventListener('click', () => {
-        const totalCards = slider.querySelectorAll('.card').length;
+        const totalCards = cards.length;
         if (currentIndex < totalCards - visibleCards) {
             currentIndex++;
             updateSlider();
