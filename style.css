@@ -8,24 +8,12 @@ body {
     margin: 0;
 }
 
-/* Slider Container */
-.slider-container {
-    display: flex;
-    align-items: center;
-    position: relative;
-    width: 80%; /* Adjust based on your design */
-    overflow: hidden;
-}
-
-.slider {
-    display: flex; /* This ensures cards are displayed in a row */
-    transition: transform 0.5s ease;
-    width: 100%; /* Full width of the container */
+/* Carousel Container */
+.carousel {
+    width: 80%; /* Adjust as needed */
 }
 
 .card {
-    flex: 0 0 50%; /* Each card takes up 50% of the container width, 2 cards at a time */
-    box-sizing: border-box;
     padding: 10px;
     text-align: center;
 }
@@ -33,25 +21,6 @@ body {
 .card img {
     width: 100%;
     height: auto;
-}
-
-.left-button, .right-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 24px;
-    z-index: 1;
-    position: absolute;
-}
-
-.left-button {
-    left: 0;
-}
-
-.right-button {
-    right: 0;
 }
 
 .know-more {
