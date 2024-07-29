@@ -53,7 +53,7 @@ body {
     /* Customize arrow styles */
     width: 40px; /* Adjust as needed */
     height: 40px; /* Adjust as needed */
-    background-color: navy; /* Navy blue background */
+    background-color: red; /* Navy blue background */
     color: white; /* White arrow color */
     display: flex;
     align-items: center;
@@ -78,10 +78,10 @@ body {
 
 .slick-prev:before {
     border-width: 10px 15px 10px 0; /* Adjust arrow size */
-    border-color: transparent navy transparent transparent; /* Navy blue arrow */
+    border-color: transparent red transparent transparent; /* Navy blue arrow */
 }
 
 .slick-next:before {
     border-width: 10px 0 10px 15px; /* Adjust arrow size */
-    border-color: transparent transparent transparent navy; /* Navy blue arrow */
+    border-color: transparent transparent transparent red; /* Navy blue arrow */
 }
