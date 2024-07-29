@@ -1,6 +1,11 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
 /* Slider Container */
@@ -11,10 +16,12 @@ body {
     position: relative;
     width: 80%; /* Adjust as needed */
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .slider {
     display: flex;
+    transition: transform 0.5s ease;
     overflow: hidden;
     width: 100%;
 }
@@ -39,6 +46,7 @@ body {
     cursor: pointer;
     font-size: 24px;
     z-index: 1;
+    position: absolute;
 }
 
 .left-button {
@@ -49,4 +57,13 @@ body {
 .right-button {
     position: absolute;
     right: 0;
+}
+.know-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
