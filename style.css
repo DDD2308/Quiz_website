@@ -8,9 +8,10 @@ body {
     margin: 0;
 }
 
-/* Carousel Container */
 .carousel {
-    width: 80%; /* Adjust as needed */
+    width: 80%;
+    margin: auto;
+    position: relative;
 }
 
 .card {
@@ -35,4 +36,44 @@ body {
 
 .know-more:hover {
     background-color: #0056b3;
+}
+
+/* Slick Carousel Arrows */
+.slick-prev, .slick-next {
+    font-size: 24px;
+    color: #007bff;
+    z-index: 1;
+    background-color: #fff; /* Optional: Background color for better visibility */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+.slick-prev:before, .slick-next:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.slick-prev:before {
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #007bff transparent transparent;
+}
+
+.slick-next:before {
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #007bff;
 }
