@@ -39,17 +39,22 @@ body {
 }
 
 /* Slick Carousel Arrows */
-.slick-prev, .slick-next {
-    font-size: 24px;
-    color: #007bff;
-    z-index: 1;
-    background-color: #fff; /* Optional: Background color for better visibility */
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
+.slick-prev, .slick-next { 
+    z-index: 1;   
     cursor: pointer;
+    /* Remove text */
+    font-size: 0;
+    /* Remove default background */
+    background: none;
+    /* Remove border */
+    border: none;
+    /* Remove hover effects */
+    transition: none;
+    /* Customize arrow styles */
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Example background color */
+    color: white; /* Example arrow color */
 }
 
 .slick-prev {
@@ -61,11 +66,7 @@ body {
 }
 
 .slick-prev:before, .slick-next:before {
-    content: '';
-    display: block;
-    width: 0;
-    height: 0;
-    border-style: solid;
+    display: none;
 }
 
 .slick-prev:before {
