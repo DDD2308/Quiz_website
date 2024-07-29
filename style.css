@@ -6,6 +6,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    background-color: #2596be;
 }
 .education-section {
   position: relative;  /* Ensure the section is positioned relative to place absolute children */
@@ -17,7 +18,20 @@ body {
   top: 0;              /* Move the heading to the top */
   left: 0;             /* Align the heading to the left */
   width: 100%;         /* Ensure the heading spans the full width */
-  background-color: white; /* Optional: Add a background color to cover any content below */
+  background-color: #2596be; /* Optional: Add a background color to cover any content below */
+  padding: 10px;       /* Add padding around the heading */
+  font-size: 24px;     /* Adjust font size as needed */
+  font-weight: bold;   /* Make the font bold */
+  text-align: center;  /* Center-align the text */
+    font-colour: #2596be;
+  z-index: 10;  
+/* Ensure the heading is above other content */
+}
+
+.education-subheading {
+  position: absolute;  /* Position the heading absolutely within the relative container */
+  width: 100%;         /* Ensure the heading spans the full width */
+  background-color: #2596be; /* Optional: Add a background color to cover any content below */
   padding: 10px;       /* Add padding around the heading */
   font-size: 24px;     /* Adjust font size as needed */
   font-weight: bold;   /* Make the font bold */
@@ -29,11 +43,13 @@ body {
     width: 80%;
     margin: auto;
     margin-top: 50px;
+    font-colour: #2596be;
 }
 
 .card {
     padding: 10px;
     text-align: center;
+    font-colour: #2596be;
 }
 
 .card img {
@@ -67,7 +83,7 @@ body {
     z-index: 1;
     cursor: pointer;
     font-size: 0px; /* Adjust as needed */
-    background: white; /* Navy blue background */
+    background: blue; /* Navy blue background */
     color: black; /* White arrow color */
     border: black;
     border-radius: 50%; /* Round button */
