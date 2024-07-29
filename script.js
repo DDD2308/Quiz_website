@@ -1,22 +1,26 @@
-$(document).ready(function(){
-    $('.carousel').slick({
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        arrows: true, // Enables navigation arrows
-        infinite: true,
-        dots: true,
-        prevArrow: '<button type="button" class="slick-prev">&#10094;</button>',
-        nextArrow: '<button type="button" class="slick-next">&#10095;</button>',
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    });   
+// Glider configuration
+new Glider(document.getElementById("slider"), {
+  // Optional parameters
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  draggable: true,
+  rewind: true,
+  duration: 0.5,
+  dots: false,
+  arrows: {
+    prev: ".slider-prev",
+    next: ".slider-next"
+  },
+
+  // Responsive breakpoints
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1.5,
+        scrollLock: false,
+        rewind: true
+      }
+    }
+  ]
 });
-
-
