@@ -10,26 +10,7 @@ body {
 main {
   overflow: hidden;
 }
-glider.draggable, .glider.draggable .glider-slide img {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-}
-.glider.draggable {
-    cursor: grab;
-}
-.glider {
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: none;
-}
-.glider, .glider-track {
-    transform: translateZ(0);
-}
-.glider, .glider-contain {
-    margin: 0 auto;
-    position: relative;
-}
+
 a,
 button {
   cursor: pointer;
