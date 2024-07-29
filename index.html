@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carousel Example</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<section class="section slider-section">
-    <div class="container slider-column"> 
+    <div class="container"> 
       <h1 class="mb-12 text-5xl text-center font-bold">
             Education
       </h1>
       <p class="mb-4">
           Our collaborators include <a href="https://library.iitgn.ac.in/"><span class="font-bold ">Library</span></a> and <a href="https://art.iitgn.ac.in/"><span class="font-bold ">Art @ IITGN</span></a>
       </p>
-    <div class="slider-inner" id="slider">
+    <div class="carousel">
         <div class="card">
             <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240213150115/ppp.png" alt="Nyasa School" loading="lazy" class="thumbnail img_width">
             <h2 class="text-3xl card-title p-4 mb-2">Nyasa School</h2>
@@ -122,13 +123,12 @@
                   Together, we can create a world where every child has the opportunity to reach their full potential.
                 </p>
         </div>
-        <span role="tablist" class="pagination"></span>
-    <span class="slider-prev"><i class="bx bx-chevron-left"></i></span>
-    <span class="slider-next"><i class="bx bx-chevron-right"></i></span>
-  </div>
+        
     </div>
-</section>
+    </div>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
