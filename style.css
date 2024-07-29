@@ -35,20 +35,20 @@ body {
 }
 
 .know-more:hover {
-    background-color: #0056b3;
+    background-color: none;
 }
 
 /* Slick Carousel Arrows */
 .slick-prev, .slick-next {
     z-index: 1;
     cursor: pointer;
-    font-size: 24px; /* Adjust as needed */
-    background: navy; /* Navy blue background */
-    color: white; /* White arrow color */
-    border: none;
+    font-size: 0px; /* Adjust as needed */
+    background: white; /* Navy blue background */
+    color: black; /* White arrow color */
+    border: black;
     border-radius: 50%; /* Round button */
-    width: 40px; /* Adjust as needed */
-    height: 40px; /* Adjust as needed */
+    width: 80px; /* Adjust as needed */
+    height: 80px; /* Adjust as needed */
     display: flex;
     align-items: center;
     justify-content: center;
