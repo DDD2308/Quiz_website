@@ -14,5 +14,13 @@ $(document).ready(function(){
                 }
             }
         ]
-    });
+    });   
+$('.your-class').slick({
+    dots: true,
+    arrows: true,
+    prevArrow: '<button type="button" class="slick-prev">&#10094;</button>',
+    nextArrow: '<button type="button" class="slick-next">&#10095;</button>',
 });
+});
+
+
