@@ -4,7 +4,7 @@ $(document).ready(function(){
         slidesToScroll: 1,
         arrows: true, // Enables navigation arrows
         infinite: true,
-        dots: false,
+        dots: true,
         responsive: [
             {
                 breakpoint: 768,
