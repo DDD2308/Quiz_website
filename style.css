@@ -12,22 +12,19 @@ body {
 .slider-container {
     display: flex;
     align-items: center;
-    justify-content: center;
     position: relative;
-    width: 80%; /* Adjust as needed */
-    margin: 0 auto;
+    width: 80%; /* Adjust based on your design */
     overflow: hidden;
 }
 
 .slider {
-    display: flex;
+    display: flex; /* This ensures cards are displayed in a row */
     transition: transform 0.5s ease;
-    overflow: hidden;
-    width: 100%;
+    width: 100%; /* Full width of the container */
 }
 
 .card {
-    flex: 0 0 50%; /* Each card takes up 100% of the slider width */
+    flex: 0 0 50%; /* Each card takes up 50% of the container width, 2 cards at a time */
     box-sizing: border-box;
     padding: 10px;
     text-align: center;
@@ -50,14 +47,13 @@ body {
 }
 
 .left-button {
-    position: absolute;
     left: 0;
 }
 
 .right-button {
-    position: absolute;
     right: 0;
 }
+
 .know-more {
     display: inline-block;
     margin-top: 10px;
@@ -66,4 +62,8 @@ body {
     color: white;
     text-decoration: none;
     border-radius: 5px;
+}
+
+.know-more:hover {
+    background-color: #0056b3;
 }
