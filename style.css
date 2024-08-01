@@ -17,6 +17,9 @@ body {
 }
 
 .education-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1;
     display: block; /* Make sure it's set to block or inline */
     visibility: visible;
     opacity: 1;
@@ -26,10 +29,8 @@ body {
   width: 100%;         /* Ensure the heading spans the full width */
   background-color: #eef1ea; /* Optional: Add a background color to cover any content below */
   padding: 10px;       /* Add padding around the heading */
-  font-size: 32px;     /* Adjust font size as needed */
-  font-weight: bold;   /* Make the font bold */
   text-align: center;  /* Center-align the text */
-    font-colour: #4B5563;
+    font-colour: #0d6efd;
   z-index: 1;  
 /* Ensure the heading is above other content */
 }
@@ -43,10 +44,9 @@ body {
   background-color: #eef1ea; /* Optional: Add a background color to cover any content below */
   padding: 10px;       /* Add padding around the heading */
   font-size: 18px;     /* Adjust font size as needed */
-  font-weight: bold;   /* Make the font bold */
-  text-align: center;  /* Center-align the text */
+  text-align: left;  /* Center-align the text */
   z-index: 1;         /* Ensure the heading is above other content */
-    font-colour: #4B5563;
+    font-colour: black;
 }
 
 .carousel {
