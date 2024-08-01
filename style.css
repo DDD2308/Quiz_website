@@ -77,11 +77,21 @@ a.bold-black:hover {
     margin: auto;
     margin-top: 50px;
     font-colour: black;
+    font-color: black;
+    border: 8px solid black; /* Adjust the border width and color as needed */
+    border-color: #a274f5;
+    background-color:  #f1f2fb; /* Change text color to white */
+    padding: 10px; /* Optional: Add some padding */
+    margin: 10px; /* Optional: Add some margin between cards */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    padding: 10px;
+    text-align: center;
+    font-colour: #4B5563;
 }
 
 .card {
     font-color: black;
-    border: 8px solid black /* Adjust the border width and color as needed */
+    border: 8px solid black; /* Adjust the border width and color as needed */
     border-color: #a274f5;
     background-color:  #f1f2fb; /* Change text color to white */
     padding: 10px; /* Optional: Add some padding */
@@ -98,9 +108,10 @@ a.bold-black:hover {
     object-fit: cover;
 }
 
-.card-title {
+.card card-title {
     font-color: #1f2937;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .carousel img {
