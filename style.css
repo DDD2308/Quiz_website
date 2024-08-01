@@ -57,6 +57,12 @@ body {
 }
 
 .card {
+    border: 2px solid black; /* Adjust the border width and color as needed */
+    color:  #f1f2fb; /* Change text color to white */
+    background-color: #eef1ea; /* Optional: Change background color to enhance visibility */
+    padding: 10px; /* Optional: Add some padding */
+    margin: 10px; /* Optional: Add some margin between cards */
+    border-radius: 5px; /* Optional: Add rounded corners */
     padding: 10px;
     text-align: center;
     font-colour: #4B5563;
