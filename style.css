@@ -9,20 +9,20 @@ body {
     background-color: #eef1ea;
 }
 .education-section {
-     display: block; /* Make sure it's set to block or inline */
-    visibility: visible;
-    opacity: 1;
+  display: block; /* Make sure it's set to block or inline */
+  visibility: visible;
+  opacity: 1;
   position: relative;  /* Ensure the section is positioned relative to place absolute children */
   width: 100%;         /* Full width of the container */
 }
 
 .education-heading {
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 1;
-    display: block; /* Make sure it's set to block or inline */
-    visibility: visible;
-    opacity: 1;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1;
+  display: block; /* Make sure it's set to block or inline */
+  visibility: visible;
+  opacity: 1;
   position: relative;  /* Position the heading absolutely within the relative container */
   top: 0;              /* Move the heading to the top */
   left: 0;             /* Align the heading to the left */
@@ -30,15 +30,15 @@ body {
   background-color: #eef1ea; /* Optional: Add a background color to cover any content below */
   padding: 10px;       /* Add padding around the heading */
   text-align: center;  /* Center-align the text */
-    font-colour: #0d6efd;
+  font-colour: #1f2937;
   z-index: 1;  
 /* Ensure the heading is above other content */
 }
 
 .education-subheading {
-     display: block; /* Make sure it's set to block or inline */
-    visibility: visible;
-    opacity: 1;
+  display: block; /* Make sure it's set to block or inline */
+  visibility: visible;
+  opacity: 1;
   position: relative;  /* Position the heading absolutely within the relative container */
   width: 100%;         /* Ensure the heading spans the full width */
   background-color: #eef1ea; /* Optional: Add a background color to cover any content below */
@@ -46,21 +46,21 @@ body {
   font-size: 18px;     /* Adjust font size as needed */
   text-align: left;  /* Center-align the text */
   z-index: 1;         /* Ensure the heading is above other content */
-    font-colour: black;
-    font-weight: normal; /* Change from bold to normal */
+  font-colour: black;
+  font-weight: normal; /* Change from bold to normal */
 }
 
 /* Make Library and Art bold black without underline */
 .font-bold {
     font-weight: bold;
-    color: black;
+    color: #1f2937;
     text-decoration: none; /* Remove underline */
     underline: none;
 }
 
 /* Override any styles that might apply light blue color or underline */
 a.font-bold {
-    color: black; /* Ensure color is black */
+    color: #1f2937; /* Ensure color is black */
     font-weight: bold;
     text-decoration: none; /* Remove underline */
     underline: none;
@@ -68,7 +68,7 @@ a.font-bold {
 
 /* Optionally, add a hover effect to ensure it remains consistent */
 a.bold-black:hover {
-    color: black;
+    color: #1f2937;
     text-decoration: none;
 }
 
@@ -81,8 +81,8 @@ a.bold-black:hover {
 
 .card {
     font-color: black;
-    border: 8px  /* Adjust the border width and color as needed */
-        border-color: #a274f5;
+    border: 8px solid black /* Adjust the border width and color as needed */
+    border-color: #a274f5;
     background-color:  #f1f2fb; /* Change text color to white */
     padding: 10px; /* Optional: Add some padding */
     margin: 10px; /* Optional: Add some margin between cards */
@@ -96,6 +96,11 @@ a.bold-black:hover {
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+.card-title {
+    font-color: #1f2937;
+    font-size: 24px;
 }
 
 .carousel img {
