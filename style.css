@@ -6,7 +6,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #2596be;
+    background-color: #eef1ea;
 }
 .education-section {
   position: relative;  /* Ensure the section is positioned relative to place absolute children */
@@ -18,12 +18,12 @@ body {
   top: 0;              /* Move the heading to the top */
   left: 0;             /* Align the heading to the left */
   width: 100%;         /* Ensure the heading spans the full width */
-  background-color: #2596be; /* Optional: Add a background color to cover any content below */
+  background-color: #eef1ea; /* Optional: Add a background color to cover any content below */
   padding: 10px;       /* Add padding around the heading */
   font-size: 24px;     /* Adjust font size as needed */
   font-weight: bold;   /* Make the font bold */
   text-align: center;  /* Center-align the text */
-    font-colour: #2596be;
+    font-colour: #4B5563;
   z-index: 10;  
 /* Ensure the heading is above other content */
 }
@@ -37,19 +37,20 @@ body {
   font-weight: bold;   /* Make the font bold */
   text-align: center;  /* Center-align the text */
   z-index: 10;         /* Ensure the heading is above other content */
+    font-colour: #4B5563;
 }
 
 .carousel {
     width: 80%;
     margin: auto;
     margin-top: 50px;
-    font-colour: #2596be;
+    font-colour: #4B5563;
 }
 
 .card {
     padding: 10px;
     text-align: center;
-    font-colour: #2596be;
+    font-colour: #4B5563;
 }
 
 .card img {
