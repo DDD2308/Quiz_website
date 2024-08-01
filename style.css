@@ -55,12 +55,21 @@ body {
     font-weight: bold;
     color: black;
     text-decoration: none; /* Remove underline */
+    underline: none;
 }
 
 /* Override any styles that might apply light blue color or underline */
 a.font-bold {
     color: black; /* Ensure color is black */
+    font-weight: bold;
     text-decoration: none; /* Remove underline */
+    underline: none;
+}
+
+/* Optionally, add a hover effect to ensure it remains consistent */
+a.bold-black:hover {
+    color: black;
+    text-decoration: none;
 }
 
 .carousel {
@@ -72,7 +81,7 @@ a.font-bold {
 
 .card {
     font-color: black;
-    border: 2px #b2aeef; /* Adjust the border width and color as needed */
+    border: 8px #a274f5; /* Adjust the border width and color as needed */
     background-color:  #f1f2fb; /* Change text color to white */
     padding: 10px; /* Optional: Add some padding */
     margin: 10px; /* Optional: Add some margin between cards */
