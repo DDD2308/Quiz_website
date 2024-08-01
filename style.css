@@ -81,7 +81,8 @@ a.bold-black:hover {
 
 .card {
     font-color: black;
-    border: 8px #a274f5; /* Adjust the border width and color as needed */
+    border: 8px  /* Adjust the border width and color as needed */
+        border-color: #a274f5;
     background-color:  #f1f2fb; /* Change text color to white */
     padding: 10px; /* Optional: Add some padding */
     margin: 10px; /* Optional: Add some margin between cards */
