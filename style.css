@@ -9,34 +9,43 @@ body {
     background-color: #eef1ea;
 }
 .education-section {
+     display: block; /* Make sure it's set to block or inline */
+    visibility: visible;
+    opacity: 1;
   position: relative;  /* Ensure the section is positioned relative to place absolute children */
   width: 100%;         /* Full width of the container */
 }
 
 .education-heading {
-  position: absolute;  /* Position the heading absolutely within the relative container */
+    display: block; /* Make sure it's set to block or inline */
+    visibility: visible;
+    opacity: 1;
+  position: relative;  /* Position the heading absolutely within the relative container */
   top: 0;              /* Move the heading to the top */
   left: 0;             /* Align the heading to the left */
   width: 100%;         /* Ensure the heading spans the full width */
   background-color: #eef1ea; /* Optional: Add a background color to cover any content below */
   padding: 10px;       /* Add padding around the heading */
-  font-size: 24px;     /* Adjust font size as needed */
+  font-size: 32px;     /* Adjust font size as needed */
   font-weight: bold;   /* Make the font bold */
   text-align: center;  /* Center-align the text */
     font-colour: #4B5563;
-  z-index: 10;  
+  z-index: 1;  
 /* Ensure the heading is above other content */
 }
 
 .education-subheading {
-  position: absolute;  /* Position the heading absolutely within the relative container */
+     display: block; /* Make sure it's set to block or inline */
+    visibility: visible;
+    opacity: 1;
+  position: relative;  /* Position the heading absolutely within the relative container */
   width: 100%;         /* Ensure the heading spans the full width */
-  background-color: #2596be; /* Optional: Add a background color to cover any content below */
+  background-color: #eef1ea; /* Optional: Add a background color to cover any content below */
   padding: 10px;       /* Add padding around the heading */
-  font-size: 24px;     /* Adjust font size as needed */
+  font-size: 18px;     /* Adjust font size as needed */
   font-weight: bold;   /* Make the font bold */
   text-align: center;  /* Center-align the text */
-  z-index: 10;         /* Ensure the heading is above other content */
+  z-index: 1;         /* Ensure the heading is above other content */
     font-colour: #4B5563;
 }
 
