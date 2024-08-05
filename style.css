@@ -9,97 +9,94 @@ body {
     background-color: #eef1ea;
 }
 .education-section {
-  display: block; /* Make sure it's set to block or inline */
+  display: block; 
   visibility: visible;
   opacity: 1;
-  position: relative;  /* Ensure the section is positioned relative to place absolute children */
-  width: 100%;         /* Full width of the container */
+  position: relative; 
+  width: 100%;         
 }
 
 .education-heading {
   font-weight: 700;
   font-size: 3rem;
   line-height: 1;
-  display: block; /* Make sure it's set to block or inline */
+  display: block; 
   visibility: visible;
   opacity: 1;
-  position: relative;  /* Position the heading absolutely within the relative container */
-  top: 0;              /* Move the heading to the top */
-  left: 0;             /* Align the heading to the left */
-  width: 100%;         /* Ensure the heading spans the full width */
-  background-color: #eef1ea; /* Optional: Add a background color to cover any content below */
-  padding: 10px;       /* Add padding around the heading */
-  text-align: center;  /* Center-align the text */
+  position: relative;  
+  top: 0;              
+  left: 0;             
+  width: 100%;         
+  background-color: #eef1ea; 
+  padding: 10px;       
+  text-align: center;  
   font-colour: #1f2937;
   z-index: 1;  
-/* Ensure the heading is above other content */
 }
 
 .education-subheading {
-  display: block; /* Make sure it's set to block or inline */
+  display: block; 
   visibility: visible;
   opacity: 1;
-  position: relative;  /* Position the heading absolutely within the relative container */
-  width: 100%;         /* Ensure the heading spans the full width */
-  background-color: #eef1ea; /* Optional: Add a background color to cover any content below */
-  padding: 10px;       /* Add padding around the heading */
-  font-size: 18px;     /* Adjust font size as needed */
-  text-align: left;  /* Center-align the text */
-  z-index: 1;         /* Ensure the heading is above other content */
+  position: relative;  
+  width: 100%;         
+  background-color: #eef1ea; 
+  padding: 10px;       
+  font-size: 18px;     
+  text-align: left;  
+  z-index: 1;         
   font-colour: black;
-  font-weight: normal; /* Change from bold to normal */
+  font-weight: normal; 
 }
 
-/* Make Library and Art bold black without underline */
 .font-bold {
     font-weight: bold;
     color: #1f2937;
-    text-decoration: none; /* Remove underline */
+    text-decoration: none; 
     underline: none;
 }
 
-/* Override any styles that might apply light blue color or underline */
 a.font-bold {
-    color: #1f2937; /* Ensure color is black */
+    color: #1f2937; 
     font-weight: bold;
-    text-decoration: none; /* Remove underline */
+    text-decoration: none; 
     underline: none;
 }
 
-/* Optionally, add a hover effect to ensure it remains consistent */
-a.bold-black:hover {
+a.font-bold:hover {
     color: #1f2937;
     text-decoration: none;
 }
 
+.boldfont {
+    font-weight: bold;
+    color: #1f2937;
+}
+
 .carousel {
     width: 80%;
-    margin: auto;
-    margin-top: 50px;
-    font-colour: black;
-    font-color: black;
-    border: 8px solid black; /* Adjust the border width and color as needed */
-    border-color: #a274f5;
-    background-color:  #f1f2fb; /* Change text color to white */
-    padding: 10px; /* Optional: Add some padding */
-    margin: 10px; /* Optional: Add some margin between cards */
-    border-radius: 5px; /* Optional: Add rounded corners */
-    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    font-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     font-colour: #4B5563;
 }
 
 .card {
     font-color: black;
-    border: 8px solid black; /* Adjust the border width and color as needed */
-    border-color: #a274f5;
-    background-color:  #f1f2fb; /* Change text color to white */
-    padding: 10px; /* Optional: Add some padding */
-    margin: 10px; /* Optional: Add some margin between cards */
-    border-radius: 5px; /* Optional: Add rounded corners */
-    padding: 10px;
+    margin: 20px;
+    border: 3px solid black; 
+    border-color: #caacfb;
+    background-color:  #f1f2fb; 
+    border-radius: 10px; 
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    font-colour: #4B5563;
 }
 
 .card img {
@@ -109,6 +106,12 @@ a.bold-black:hover {
 }
 
 .card card-title {
+    font-color: #1f2937;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+card-title {
     font-color: #1f2937;
     font-size: 24px;
     font-weight: bold;
@@ -140,11 +143,9 @@ a.bold-black:hover {
     cursor: pointer;
     font-size: 0px; /* Adjust as needed */
     background: blue; /* Navy blue background */
-    color: black; /* White arrow color */
+    color: black; 
     border: black;
     border-radius: 50%; /* Round button */
-     /* Adjust as needed */
-     /* Adjust as needed */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -234,5 +235,5 @@ a.bold-black:hover {
 }
 
 .slick-prev:focus, .slick-next:focus {
-    outline: none; /* Remove default focus outline */
+    outline: none; 
 }
